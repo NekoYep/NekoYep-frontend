@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>登录 __^&^</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <style media="screen">
+      label {
+        text-align: left;
+      }
+      label[for="pwd"] {
+        padding-left: 30px;
+      }
+      /*.btn-login>a, .btn-signup>a {
+        padding: 5px 10px !important;
+      }
+      .btn-login, .btn-signup {
+        margin-top: calc(25% - 16px);
+      }*/
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                      <span class="sr-only">切换导航</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">二次元精修社</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="navbar">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">番剧</a></li>
+                        <li><a href="#">音乐</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">书籍
+                                <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">hello</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">更多 <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">one</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">two</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">登录</a></li>
+                        <li><a href="#">注册</a></li>
+                    </ul>
+                    <form class="navbar-form navbar-right" role="search">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="搜索">
+                        </div>
+                    </form>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+    </nav>
+    <form class="form-horizontal" action="index.html" method="post">
+      <div class="container">
+        <div class="row" style="margin-top: 20px">
+          <div class="col-sm-6 col-sm-offset-3 col-xs-12">
+            <div class="form-group">
+              <label for="username" class="col-sm-11 col-sm-offset-1">用户名:</label>
+              <div class="col-sm-7 col-sm-offset-2">
+                <input type="text" class="form-control" id="username" placeholder="">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="pwd" class="col-sm-11 col-sm-offset-1">密码: </label>
+              <div class="col-sm-offset-2 col-sm-7">
+                <input type="password" class="form-control col-xs-10" id="pwd" placeholder="">
+              </div>
+            </div>
+            <div class="form-group">
+              <div style="padding-top: 20px;"></div>
+              <div class="col-sm-7 col-sm-offset-2">
+                <input type="submit" class="form-control btn-danger" placeholder="注册" value="注册">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+
+</html>
